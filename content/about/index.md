@@ -2,7 +2,9 @@
 title: 'About Me'
 avatar: 'me.jpg'
 skills:
-  - Java 
+  - Java
+  - JavaScript
+  - Playwright
   - Selenium
   - Appium
   - REST Assured
@@ -11,10 +13,9 @@ skills:
   - BDD Cucumber
   - Jenkins (CI/CD)
   - Maven
-  - Git
+  - Docker
 ---
 
-Hello! I am a Software Development Engineer in Test (SDET) with 3+ years of experience in all layers of quality engineering with strong automation as well as functional knowledge .Skilled in Java,Selenium ,Appium,API Testing and Test
-Project(AI Test Automation Tool)
+Hello! I am a Software Development Engineer in Test (SDET) with 4+ years of experience in all layers of quality engineering with strong automation as well as functional testing knowledge.
 
-Here is a list of the technologies that I work with in Medibuddy!
+Here is a list of the technologies that I'm familiar with!

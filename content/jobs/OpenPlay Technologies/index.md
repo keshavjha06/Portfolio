@@ -22,4 +22,4 @@ url: 'https://www.openplaytech.com/'
 
 - Bug Reporting and Tracking through JIRA.
 
-  Key Achievement: Slashed testing time by 70% by creating automation scripts using Selenium and Test Project.
+  **Key Achievement**: Slashed testing time by 70% by creating automation scripts using Selenium and Test Project.
