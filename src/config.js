@@ -1,9 +1,8 @@
 module.exports = {
   siteTitle: 'Keshav Jha | Software Development Engineer In Test',
-  siteDescription:
-    'Keshav Jha is a SDET at Medibuddy, who loves learning new things and breaking stuff.',
+  siteDescription: 'Keshav Jha is a SDET at Medibuddy, who loves learning new things.',
   siteKeywords:
-    'Keshav Jha, , Deb, keshav, keshavjha, SDET, software engineer, java, hyderabad, bengaluru, amazon, medibuddy',
+    'Keshav Jha, keshav jha, keshavjha06, SDET, software engineer, Java, JavaScript, Selenium, Playwright, Hyderabad, Amazon',
   siteUrl: 'https://keshavjha06.github.io/',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
@@ -23,6 +22,10 @@ module.exports = {
       url: 'https://www.linkedin.com/in/keshavjha06/',
     },
     {
+      name: 'Instagram',
+      url: 'https://www.instagram.com/_keshav_jha',
+    },
+    {
       name: 'Twitter',
       url: 'https://twitter.com/keshavjha06',
     },
@@ -36,6 +39,10 @@ module.exports = {
     {
       name: 'Experience',
       url: '/#jobs',
+    },
+    {
+      name: 'Projects',
+      url: '/#projects',
     },
     {
       name: 'Contact',
