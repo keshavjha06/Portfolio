@@ -9,6 +9,7 @@ tech:
   - Javascript
   - css
   - HTML
+showInProjects: false
 ---
 
 - Project Description : It is the Online Fantasy Sports site.

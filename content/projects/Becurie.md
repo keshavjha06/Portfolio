@@ -9,6 +9,7 @@ tech:
   - Javascript
   - css
   - HTML
+showInProjects: false
 ---
 
 - Project Description : It is Device for listening music and it is connected with the App through bluetooth.
