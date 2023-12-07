@@ -15,4 +15,5 @@ jobs:
         uses: fastify/github-action-merge-dependabot@v3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          version-update: semver-major
           merge-method: rebase
