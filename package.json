@@ -66,7 +66,7 @@
       },
       "devDependencies": {
         "@upstatement/eslint-config": "2.0.0",
-        "@upstatement/prettier-config": "^1.0.0",
+        "@upstatement/prettier-config": "^1.1.0",
         "babel-eslint": "^10.1.0",
         "eslint": "^8.55.0",
         "eslint-config-prettier": "^8.3.0",

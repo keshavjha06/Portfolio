@@ -2450,10 +2450,10 @@
   resolved "https://registry.yarnpkg.com/@upstatement/eslint-config/-/eslint-config-2.0.0.tgz#aa13edf5b9c8d2767be79da98298dc26079af823"
   integrity sha512-+rSTYjoHwrS5SCK8v3s6aQCkYmogrPzq7lCUMOL5DcvgEqC7YwH8wKgNUdKMCor0rzBmdsmYrmSEBx2TrxlXUg==
 
-"@upstatement/prettier-config@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@upstatement/prettier-config/-/prettier-config-1.0.0.tgz#58ab1dc0cf68925e1cc7ad657ee02fc1866d675c"
-  integrity sha512-Sj6DWb+jKOoMNIPmdSbY+6xEk1GU8Zq46haHcMa0G/Qv/QbGBr9CWyBW00oo2/68a1kXHhiiOaUdYP13QIg2Pw==
+"@upstatement/prettier-config@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@upstatement/prettier-config/-/prettier-config-1.1.0.tgz#89eac0050d82721a4e02e9b58ff3bf5ecb226639"
+  integrity sha512-+APvCz1OOuRxvo9flQz6+mTrxy2Vaq4N0Zng9lYAaPQP5cAskFB4b1Eyil58FKvM/+d/NIhwvlWsq5jq7UtaFg==
   dependencies:
     prettier "^2.x.x"
 
