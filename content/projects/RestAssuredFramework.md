@@ -10,7 +10,7 @@ tech:
   - Allure Reports
   - Postman
   - Jenkins
-showInProjects: true
+showInProjects: false
 ---
 
 REST Assured API test automation framework using Java + Maven + TestNG. Framework follows many of the industry best practices.

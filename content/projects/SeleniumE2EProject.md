@@ -10,7 +10,7 @@ tech:
   - Allure Reports
   - Cucumber
   - Jenkins
-showInProjects: true
+showInProjects: false
 ---
 
 This Test Automation Framework is created using Java + Selenium Web Driver + TestNG + Cucumber + Maven Page Object Model(POM). Which can be used across different web based applications.It is used to make the code more readable, maintainable and reusable.

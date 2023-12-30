@@ -9,7 +9,7 @@ tech:
   - Allure Reports
   - GitHub
   - Jenkins
-showInProjects: true
+showInProjects: false
 ---
 
 This Test Automation Framework is created using JavaScript + Playwright + Page Object Model(POM). Which can be used across different web based applications.It is used to make the code more readable, maintainable and reusable.

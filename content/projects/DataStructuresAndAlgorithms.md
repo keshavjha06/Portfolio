@@ -7,7 +7,7 @@ tech:
   - Java
   - Data Structures
   - Algorithms
-showInProjects: true
+showInProjects: false
 ---
 
 This project consists of problems solved on different Data Structures and Alogrithms.
