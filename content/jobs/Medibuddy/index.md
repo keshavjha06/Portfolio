@@ -24,4 +24,6 @@ url: 'https://www.medibuddy.in'
 
 - Led and mentored manual QA engineers to execute and analyse automation smoke and regression tests.
 
+- Received STAR OF THE MONTH Award View [CERTIFICATE](https://drive.google.com/file/d/1bIIxnAHfNwb6HuSTqw-5poAKfG3NmSeM/view)
+
 **Key Achievement**: Added test cases for **200+** corporates in web application.
