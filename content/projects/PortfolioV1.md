@@ -6,7 +6,7 @@ external: 'https://keshavjha06.github.io/'
 tech:
   - Gatsby
   - React
-  - Javascript
+  - JavaScript
   - GraphQL
 showInProjects: true
 ---
