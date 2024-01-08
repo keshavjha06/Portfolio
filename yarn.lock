@@ -1069,7 +1069,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/preset-react@^7.18.6":
+"@babel/preset-react@^7.18.6", "@babel/preset-react@^7.23.3":
   version "7.23.3"
   resolved "https://registry.npmjs.org/@babel/preset-react/-/preset-react-7.23.3.tgz"
   integrity sha512-tbkHOS9axH6Ysf2OUEqoSZ6T3Fa2SrNH6WTWSPBboxKzdxNc9qOICeLXkNG0ZEwbQ1HY8liwOce4aN/Ceyuq6w==
@@ -1097,7 +1097,7 @@
   resolved "https://registry.npmjs.org/@babel/regjsgen/-/regjsgen-0.8.0.tgz"
   integrity sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.5", "@babel/runtime@^7.14.6", "@babel/runtime@^7.16.7", "@babel/runtime@^7.20.13", "@babel/runtime@^7.21.0", "@babel/runtime@^7.23.2", "@babel/runtime@^7.3.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.5", "@babel/runtime@^7.14.6", "@babel/runtime@^7.16.7", "@babel/runtime@^7.17.9", "@babel/runtime@^7.20.13", "@babel/runtime@^7.21.0", "@babel/runtime@^7.23.2", "@babel/runtime@^7.3.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.23.7"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.23.7.tgz"
   integrity sha512-w06OXVOFso7LcbzMiDGt+3X7Rh7Ho8MmgPoWU3rarH+8upf+wSU/grlGbWzQyr3DkdN6ZeuMFjpdwW0Q+HxobA==
@@ -5676,7 +5676,7 @@ gatsby-legacy-polyfills@^3.13.0:
     "@babel/runtime" "^7.20.13"
     core-js-compat "3.31.0"
 
-gatsby-link@^5.13.0:
+gatsby-link@^5.13.0, gatsby-link@5.13.0:
   version "5.13.0"
   resolved "https://registry.npmjs.org/gatsby-link/-/gatsby-link-5.13.0.tgz"
   integrity sha512-3qgJXL9DGOjW6lp2WRtJUyJ2y+kPA7tp3fKGZVJJ2RFz2vVWajuOtH20pp9LMyJZESxX7ACDnwRd15nRGjifQw==
@@ -5787,12 +5787,12 @@ gatsby-plugin-react-helmet@^6.13.0:
   dependencies:
     "@babel/runtime" "^7.20.13"
 
-gatsby-plugin-robots-txt@^1.7.0:
-  version "1.7.1"
-  resolved "https://registry.npmjs.org/gatsby-plugin-robots-txt/-/gatsby-plugin-robots-txt-1.7.1.tgz"
-  integrity sha512-ZdZm8/4b7Whf+W5kf+DqjZwz/+DY+IB7xp227+m2f2rgGUsz8yVCz4RitiN5+EInGFZFry0v+IbrUKCXTpIZYg==
+gatsby-plugin-robots-txt@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.npmjs.org/gatsby-plugin-robots-txt/-/gatsby-plugin-robots-txt-1.8.0.tgz"
+  integrity sha512-GMUIrsCPncb10wM9cuF2ZwYNN8revEolzvvizT0RzRE4NhPxsQUT4LIRE4n5IYQhbYu6oYZtfeG7YreFXmxLMw==
   dependencies:
-    "@babel/runtime" "^7.16.7"
+    "@babel/runtime" "^7.17.9"
     generate-robotstxt "^8.0.3"
 
 gatsby-plugin-sharp@^5.0.0-next, gatsby-plugin-sharp@^5.13.0:
@@ -5858,7 +5858,7 @@ gatsby-plugin-utils@^4.13.0:
     joi "^17.9.2"
     mime "^3.0.0"
 
-gatsby-react-router-scroll@^6.13.0:
+gatsby-react-router-scroll@^6.13.0, gatsby-react-router-scroll@6.13.0:
   version "6.13.0"
   resolved "https://registry.npmjs.org/gatsby-react-router-scroll/-/gatsby-react-router-scroll-6.13.0.tgz"
   integrity sha512-Sgw4jHL4bMGXVR+ygb/IRr509DAMxKuwZ/ewoBWsdd0l7fTrYiExqAtszcGIq4PT0/3XeljImRtH7BZGIpDsxQ==
@@ -6006,7 +6006,7 @@ gatsby-worker@^2.13.0:
     fs-extra "^11.1.1"
     signal-exit "^3.0.7"
 
-"gatsby@^4.0.0 || ^3.0.0 || ^2.0.0", "gatsby@^4.0.0 || ^5.0.0", gatsby@^5.0.0-next, gatsby@^5.13.1:
+"gatsby@^4.0.0 || ^5.0.0", gatsby@^5.0.0, gatsby@^5.0.0-next, gatsby@^5.13.1:
   version "5.13.1"
   resolved "https://registry.npmjs.org/gatsby/-/gatsby-5.13.1.tgz"
   integrity sha512-y8VB381ZnHX3Xxc1n78AAAd+t0EsIyyIRtfqlSQ10CXwZHpZzBR3DTRoHmqIG3/NmdiqWhbHb/nRlmKZUzixtQ==
@@ -9613,14 +9613,13 @@ react-dev-utils@^12.0.1:
     strip-ansi "^6.0.1"
     text-table "^0.2.0"
 
-react-dom@^17.0.2, "react-dom@^18.0.0 || ^0.0.0", "react-dom@>= 16.8.0", react-dom@>=16.6.0, react-dom@18.x:
-  version "17.0.2"
-  resolved "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
-  integrity sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
+"react-dom@^18.0.0 || ^0.0.0", react-dom@^18.2.0, "react-dom@>= 16.8.0", react-dom@>=16.6.0, react-dom@18.x:
+  version "18.2.0"
+  resolved "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
+  integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
   dependencies:
     loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    scheduler "^0.20.2"
+    scheduler "^0.23.0"
 
 react-error-overlay@^6.0.11:
   version "6.0.11"
@@ -9672,9 +9671,9 @@ react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825:
     neo-async "^2.6.1"
 
 react-side-effect@^2.1.0:
-  version "2.1.1"
-  resolved "https://registry.npmjs.org/react-side-effect/-/react-side-effect-2.1.1.tgz"
-  integrity sha512-2FoTQzRNTncBVtnzxFOk2mCpcfxQpenBMbk5kSVBg5UcPqV9fRbgY2zhb7GTWWOlpFmAxhClBDlIq8Rsubz1yQ==
+  version "2.1.2"
+  resolved "https://registry.npmjs.org/react-side-effect/-/react-side-effect-2.1.2.tgz"
+  integrity sha512-PVjOcvVOyIILrYoyGEpDN3vmYNLdy1CajSFNt4TDsVQC5KpTijDvWVoR+/7Rz2xT978D8/ZtFceXxzsPwZEDvw==
 
 react-transition-group@^4.3.0:
   version "4.4.2"
@@ -9686,13 +9685,12 @@ react-transition-group@^4.3.0:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
-"react@^16.3.0 || ^17.0.0", react@^17.0.2, "react@^18.0.0 || ^0.0.0", "react@>= 16.8.0", react@>=16.3.0, react@>=16.6.0, react@0.0.0-experimental-c8b778b7f-20220825, react@17.0.2, react@18.x:
-  version "17.0.2"
-  resolved "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
-  integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
+"react@^16.3.0 || ^17.0.0 || ^18.0.0", "react@^18.0.0 || ^0.0.0", react@^18.2.0, "react@>= 16.8.0", react@>=16.3.0, react@>=16.6.0, react@0.0.0-experimental-c8b778b7f-20220825, react@18.x:
+  version "18.2.0"
+  resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
+  integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
   dependencies:
     loose-envify "^1.1.0"
-    object-assign "^4.1.1"
 
 read-pkg-up@^7.0.1:
   version "7.0.1"
@@ -10172,13 +10170,12 @@ sax@^1.2.4:
   resolved "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-scheduler@^0.20.2:
-  version "0.20.2"
-  resolved "https://registry.npmjs.org/scheduler/-/scheduler-0.20.2.tgz"
-  integrity sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==
+scheduler@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz"
+  integrity sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==
   dependencies:
     loose-envify "^1.1.0"
-    object-assign "^4.1.1"
 
 schema-utils@^2.6.5:
   version "2.7.1"
