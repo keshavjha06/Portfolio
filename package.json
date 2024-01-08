@@ -66,7 +66,7 @@
     "react-transition-group": "^4.3.0",
     "scrollreveal": "^4.0.5",
     "smooth-scroll": "^16.1.0",
-    "styled-components": "^5.3.3"
+    "styled-components": "^5.3.11"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.23.3",
