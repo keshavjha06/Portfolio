@@ -1,18 +1,24 @@
 name: automerge
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
   pull_request:
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
-      contents: write
     steps:
       - name: 🤖 Merge PR from dependabot
         uses: fastify/github-action-merge-dependabot@v3.9.1
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
-          target: minor
           merge-method: rebase
+
+  automerge:
+    needs: build
+    runs-on: ubuntu-latest
+
+    permissions:
+      pull-requests: write
+      contents: write
