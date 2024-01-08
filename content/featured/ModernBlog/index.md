@@ -8,7 +8,6 @@ tech:
   - Appwrite
   - ReactJS
   - React-Router
-  - React-Redux
   - Redux-Toolkit
 
 showInProjects: true
