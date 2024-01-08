@@ -31,7 +31,7 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   {
-    hero: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/hero/" } }) {
+    hero: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/hero/"}}) {
       edges {
         node {
           frontmatter {
@@ -44,14 +44,14 @@ export const pageQuery = graphql`
         }
       }
     }
-    about: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/about/" } }) {
+    about: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/about/"}}) {
       edges {
         node {
           frontmatter {
             title
             avatar {
               childImageSharp {
-                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#64ffda" }) {
+                fluid(maxWidth: 700, quality: 90, traceSVG: {color: "#64ffda"}) {
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
@@ -63,8 +63,8 @@ export const pageQuery = graphql`
       }
     }
     jobs: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/jobs/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {fileAbsolutePath: {regex: "/jobs/"}}
+      sort: {frontmatter: {date: DESC}}
     ) {
       edges {
         node {
@@ -79,8 +79,8 @@ export const pageQuery = graphql`
       }
     }
     featured: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/featured/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {fileAbsolutePath: {regex: "/featured/"}}
+      sort: {frontmatter: {date: DESC}}
     ) {
       edges {
         node {
@@ -88,7 +88,7 @@ export const pageQuery = graphql`
             title
             cover {
               childImageSharp {
-                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#64ffda" }) {
+                fluid(maxWidth: 700, quality: 90, traceSVG: {color: "#64ffda"}) {
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
@@ -102,11 +102,8 @@ export const pageQuery = graphql`
       }
     }
     projects: allMarkdownRemark(
-      filter: {
-        fileAbsolutePath: { regex: "/projects/" }
-        frontmatter: { showInProjects: { ne: false } }
-      }
-      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {fileAbsolutePath: {regex: "/projects/"}, frontmatter: {showInProjects: {ne: false}}}
+      sort: {frontmatter: {date: DESC}}
     ) {
       edges {
         node {
@@ -120,7 +117,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    contact: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/contact/" } }) {
+    contact: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/contact/"}}) {
       edges {
         node {
           frontmatter {
